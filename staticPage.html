@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="leftSide">
+            <img class="logo" src="Logo/clipmine_logo_beta_226x50.png" alt="ClipMin's Logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#"><i class="fa fa-search"></i></a></li>
+                <li>
+                    <select name="search" style="border: none; color: #229cd7;">
+
+                        <option value="demo">Search</option>
+
+                    </select>
+                </li>
+            </ul>
+        </div>
+        <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Sign up</a></li>
+        </ul>
+    </nav>
+    <!-- I will be making a navigation menue for small screens
+    <div>
+
+    </div> -->
+
+    <!-- JUMBO TRON -->
+    <div class="jumboTron">
+        <img src="Jumbo Tron Images/jumboTronImg.jpg" alt="tablet">
+
+        <!--here I'm having a little bit problem, that is the vertical alignment of the whole content...-->
+        <div class="content">
+            <h1>A Better Video Experience for the <br> Web</h1><br>
+            <p>ClipMine enables bloggers, creators and enthusiasts <br> to tag content inside online videos and create a
+                <br> more engaging video experience.
+            </p><br>
+            <button id="jumboTronBtn">Sign Up</button>
+        </div>
+    </div>
+
+    <!-- SECTION BELOW JUMBOTRON  -->
+    <h2 class="sectionTitle">Help your viewers discover what matters most to them!</h2>
+    <div class="container">
+        <!--Cards Grid-->
+        <div class="card">
+            <img src="Card_Images/video-emma_280x187.png" alt="Emma Stone">
+            <div class="title">
+                <p>@01:59 Hook: Emma Stone Greatest thing about Bill....</p>
+            </div>
+            <div class="followAndShare">
+                <ul>
+                    <li><i class="fa fa-tags"></i></li>
+                    <li>3 people tagged</li>
+                    <li><i class="fa fa-share"></i></li>
+                    <li>200</li>
+                </ul>
+            </div>
+            <div class="embed">
+                <ul>
+                    <li>Embed</li>
+                    <li><i class="fa fa-share"></i>Share</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Card_Images/video-emma_280x187.png" alt="Emma Stone">
+            <div class="title">
+                <p>@01:59 Hook: Emma Stone Greatest thing about Bill....</p>
+            </div>
+            <div class="followAndShare">
+                <ul>
+                    <li><i class="fa fa-tags"></i></li>
+                    <li>3 people tagged</li>
+                    <li><i class="fa fa-share"></i></li>
+                    <li>200</li>
+                </ul>
+            </div>
+            <div class="embed">
+                <ul>
+                    <li>Embed</li>
+                    <li><i class="fa fa-share"></i>Share</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Card_Images/video-emma_280x187.png" alt="Emma Stone">
+            <div class="title">
+                <p>@01:59 Hook: Emma Stone Greatest thing about Bill....</p>
+            </div>
+            <div class="followAndShare">
+                <ul>
+                    <li><i class="fa fa-tags"></i></li>
+                    <li>3 people tagged</li>
+                    <li><i class="fa fa-share"></i></li>
+                    <li>200</li>
+                </ul>
+            </div>
+            <div class="embed">
+                <ul>
+                    <li>Embed</li>
+                    <li><i class="fa fa-share"></i>Share</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p class="sampleDescription">ClipMin works great for sharing and embedding recorded video-game sessions, tutorials,
+        product reviews, talk shows, speeches, lectures and sports coverage. Tryout more samples</p>
+
+    <!-- FEATURES -->
+    <h1 class="mainHeading">Features</h1>
+    <div class="featuresContainer">
+        <div class="featureCard">
+            <img src="features/index-sharing_300x120.png" alt="feature pic No 1">
+            <h1>Meaningful Sharing</h1>
+            <p>ClipMine works great for sharing and embedding recorded video-game sessions, tutorials, product reviews,
+                talk shows, speeches, lectures and sports coverage. Try out more samples/p>
+        </div>
+        <div class="featureCard">
+            <img src="features/index-embeds_300x120.png" alt="feature pic No 2">
+            <h1>Interactive Embeds</h1>
+            <p>Want to enable the ClipMine experience on your blog or Twitter feed? Just embed our Content-Aware Video
+                Player. It is responsive and built to work across different modern browsers and devices. Start by
+                tagging a video of your choice or pick an already tagged one and simple paste the embed code into your
+                website.</p>
+        </div>
+        <div class="featureCard">
+            <img src="features/index-tagging_300x120.png" alt="feature pic No 3">
+            <h1>Smart Tagging</h1>
+            <p>Found an interesting point in a video? On ClipMine adding tags is not reserved for the video owners only
+                -any community member can do it. In addition our smart algorithms can automatically suggest tags (in
+                private beta) for a wide variety of videos!</p>
+        </div>
+    </div>
+
+    <!-- BENEFITS -->
+    <h1 class="mainHeading">Benifits</h1>
+    <div class="benefits">
+        <div class="benefitsImage">
+            <img src="benefits/index-benefit-personal_166x166.png" alt="personalized experience">
+        </div>
+        <div class="benefitsContent">
+            <h1>Personalized Experience</h1>
+            <p>ClipMine allows your reviewers to the video content and see what's inside, through it, and specific parts
+                of the videos they like.</p>
+        </div>
+        <div class="benefitsImage">
+            <img src="benefits/index-benefit-engagement_166x166.png" alt="personalized experience">
+        </div>
+        <div class="benefitsContent">
+            <h1>Improved Engagement</h1>
+            <p>Our customers have seen up to 50% higher engagement and lower early drop-off rates on their videos when
+                embedded with ClipMine.</p>
+        </div>
+        <div class="benefitsImage">
+            <img src="benefits/index-benefit-analytics_166x166.png" alt="personalized experience">
+        </div>
+        <div class="benefitsContent">
+            <h1>Actionable Analytics</h1>
+            <p>OUr in-video analytics (by invitation only) allow you to understand user engagement in terms of your
+                content rather than timestamps. You'll exactly know which parts of the video are more likely to be
+                clicked and how long users stay there.</p>
+        </div>
+    </div>
+
+    <!-- BENEFITS -->
+    <h1 class="mainHeading">ClipMine Video Collection</h1>
+    <div class="collections">
+        <div class="leftPic">
+            <img src="collections/collection-startup_920x368.png" alt="collection image No 1">
+            <h1>STARTUPS</h1>
+        </div>
+        <div class="rightPic">
+            <img src="collections/collection-ml_922x368.png" alt="collection image No 2">
+            <h1>MACHINE LEARNING</h1>
+        </div>
+    </div>
+    <p class="sampleDescription">These are curated lists of high quality online videos, tagged by ClipMine's smart
+        algorithms and editors to demonstrate the usefulness of ClipMine.</p>
+
+    <!-- PARTNERS -->
+    <div class="partnersContainer">
+        <h1 class="mainHeading">Who's Using ClipMine?</h1>
+        <div class="partners">
+            <img src="partners/partner-yc_430x188.png" alt="Combinators">
+            <img src="partners/partner-blackbox_430x188.png" alt="Black Box">
+            <img src="partners/partner-ucf_430x188.png" alt="Central Florida (University)">
+            <img src="partners/partner-bothsides_430x188.png" alt="Booth sides">
+            <img src="partners/partner-cv_430x188.png" alt="Computer Visions Talks">
+            <img src="partners/partner-500startups_430x188.png" alt="500">
+        </div>
+        <p class="sampleDescription">Want to embed videos on your website?<span style="color:#229cd7"> content</span>
+        </p>
+    </div>
+
+    <!-- TAG SOMETHING-->
+    <div class="tagContainer">
+        <h1 class="mainHeading">What would you like to tag?</h1>
+        <form action="/Logo/clipmine_logo_beta_226x50.png" class="tagNow">
+            <!-- I'm facing issue with the input text feild, while I decrease the size (width) of the screen, it doesn't work responsive -->
+            <input type="text" placeholder="Past a YouTube, Vimeo or Dailymotion video URL">
+            <button type="submit">TAG NOW</button>
+        </form>
+    </div>
+
+    <!-- PLATEFORMS -->
+    <div class="platformsContainer">
+        <h1 class="mainHeading">Supported Platforms</h1>
+        <div class="platformsPic">
+            <img src="platforms/platform-youtube_230x100.png" alt="YouTube Logo">
+            <img src="platforms/platform-vimeo_230x100.png" alt="Vimeo Logo">
+            <img src="platforms/platform-dailymotion_230x100.png" alt="Dailymotion Logo">
+            <img src="platforms/platform-html5_230x100.png" alt="HTML Logo">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLinks">
+            <ul>
+                <li><a href="#">Contact Us |</a></li>
+                <li><a href="#">About Clipmine |</a></li>
+                <li><a href="#">Blog |</a></li>
+                <li><a href="#">Center |</a></li>
+                <li><a href="#" style="color: grey"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" style="color: grey"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="footerLastLinks">
+            <ul>
+                <li><i class="fa fa-copyright"></i></li>
+                <li>2016 ClipMine, Inc.</li>
+                <li><a href="#">Term of use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
