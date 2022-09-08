@@ -3,15 +3,19 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment</title>
+    <title>Assignment No 1</title>
     <!-- Load icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Link for Google font family-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet for larger screen displays -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Stylesheet for smaller screen displays -->
     <link rel="stylesheet" href="media.css">
+    <!-- Import javascript file for navbar (small devices) -->
+    <script type="text/javascript" src="smallNavMenue.js"></script>
 </head>
 
 <body>
@@ -37,13 +41,31 @@
             <li><a href="#">Log in</a></li>
             <li><a href="#">Sign up</a></li>
         </ul>
+        <div class="hamburger" onclick="runFunction()">
+            <i class="fa fa-bars"></i>
+        </div>
     </nav>
-    <!-- I will be making a navigation menue for small screens
-    <div>
 
-    </div> -->
+    <!-- NAVGIATION MENUE FOR SMALL DEVICE -->
+    <div class="navbarForSmallDevices" id="smallNavMenue">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#"><i class="fa fa-search"></i></a></li>
+            <li>
+                <select name="search" style="border: none; color: #229cd7; font-size: 16px;">
 
-    <!-- JUMBO TRON -->
+                    <option value="demo">Search</option>
+
+                </select>
+            </li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Sign up</a></li>
+        </ul>
+    </div>
+
+    <!-- JUMBOTRON -->
     <div class="jumboTron">
         <img src="Jumbo Tron Images/jumboTronImg.jpg" alt="tablet">
 
@@ -216,7 +238,7 @@
         <h1 class="mainHeading">What would you like to tag?</h1>
         <form action="/Logo/clipmine_logo_beta_226x50.png" class="tagNow">
             <!-- I'm facing issue with the input text feild, while I decrease the size (width) of the screen, it doesn't work responsive -->
-            <input type="text" placeholder="Past a YouTube, Vimeo or Dailymotion video URL"/>
+            <input type="text" placeholder="Past a YouTube, Vimeo or Dailymotion video URL" />
             <button type="submit">TAG NOW</button>
         </form>
     </div>
@@ -251,6 +273,7 @@
             </ul>
         </div>
     </footer>
+
 </body>
 
 </html>
