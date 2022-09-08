@@ -1,0 +1,137 @@
+@media only screen and (max-width: 700px) {
+    .navbar {
+        height: 60px;
+    }
+    .navbar ul {
+        display: none;
+    }
+    nav .logo {
+        margin: 2vw 1rem;
+        width: 180px;
+        height: 40px;
+    }
+    .jumboTron {
+        margin-top: 60px;
+    }
+    /* CARD ADJUSTMENT */
+    .container {
+        grid-template-columns: 100%;
+        grid-row-gap: 5vw;
+    }
+    .title p {
+        font-size: 4vw;
+    }
+    .followAndShare ul li {
+        font-size: 3vw;
+        margin: 3vw 0.6vw 3vw 0;
+    }
+    .embed ul li {
+        font-size: 3vw;
+        padding: 0.1vw 2vw 2vw 1vw;
+    }
+    /* ----------------- */
+
+    .sampleDescription {
+        font-size: 2.5vw;
+    }
+
+    /* MAIN HEADING */
+    .mainHeading {
+        font-size: 6vw;
+        margin-top: 10vw;
+    }
+
+    /* FEATURES ADJUSTMENT */
+    .featuresContainer {
+        grid-template-columns: 100%;
+
+    }
+    .featuresContainer h1 {
+        font-size: 5vw;
+        margin: 2vw 0vw;
+    }
+    .featuresContainer p {
+        font-size: 2.5vw;
+    }
+    .featureCard {
+        margin: 6vw 0;
+    }
+    /* ---------------- */
+
+    /* BENEFITS (isssue with the top margin of every second row (I mean the distance between the content and image))*/
+    .benefits {
+        grid-template-columns: 100%;
+        /* grid-template-rows:  50vw; */
+        /* justify-content: center; */
+        text-align: center;
+        row-gap: 10vw;
+    }
+    .benefits h1 {
+        font-size: 5vw;
+    }
+    .benefits p {
+        font-size: 2.5vw;
+    }
+    /* ---------------- */
+
+    /* COLLECTIONS */
+    .collections {
+        grid-template-columns: 100%;
+        margin: 5vw auto;
+        row-gap: 10vw;
+    }
+    .collections h1 {
+        font-size: 4vw;
+    }
+    /* ----------------- */
+
+    /* PARTNERS ADJUSTMENT */
+    .partners {
+        grid-template-columns: 100%;
+        row-gap: 10vw;
+    }
+    /* ---------------- */
+    
+    /* SUPPORTED PLATEFORMS */
+    .platformsPic {
+        grid-column-gap: 1vw;
+    }
+    /* ---------------- */
+
+    /* TAG NOW */
+    form.tagNow input[type=text] {
+        width: 65%;
+        height: 56px;
+        border: 0.1rem solid rgb(192, 192, 192);
+        border-radius: 0.3rem 0 0 0.3rem;
+        border-right: none;
+        font-size: 1rem;
+        font-weight: 400;
+        float: left;
+        padding: 0rem 0.5rem;
+    }
+    
+    form.tagNow button {
+        width: 15%;
+        height: 59px;
+        border: none;
+        padding: 0rem 0.5rem;
+        float: left;
+        background-color: #229cd7;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: 100;
+    
+    }
+
+    /* ------------------*/
+    
+    /* FOOTER LINKS ADJUSTMENT */
+    .footerLinks ul {
+        width: 24%;
+    }
+    .footerLastLinks ul {
+        width: 25%;
+    }
+}
